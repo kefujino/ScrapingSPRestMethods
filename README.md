@@ -10,6 +10,9 @@ You can get these result by using this script
 
 
 Web/Lists
+
 Web/RootFolder
+
 Web/ThemeInfo
-... etc
+
+, etc.
