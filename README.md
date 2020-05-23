@@ -1,5 +1,7 @@
 # ScrapingSPRestMethods
-Retrieve REST endpoint from root site of SharePoint Online.  
+Retrieve REST endpoints in SharePoint Online.
+
+First, get the root site. Gets each endpoint from the href element in the return value. And then, by reoccurring this process, you get a list of Rest endpoints.
 
 The Office365-REST-Python-Client 2.1.5 module is used to authenticate and create REST requests.
 https://pypi.org/project/Office365-REST-Python-Client/2.1.5/
